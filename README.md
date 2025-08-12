@@ -14,7 +14,7 @@ Develop a comprehensive report for the following exercises:
 
 
 
-1.     Foundational Concepts of Generative AI
+1. Foundational Concepts of Generative AI
 
   Generative AI refers to machine learning systems that are capable of producing new content, such as text, images, music, or code, that resembles data they were trained on. Unlike traditional AI that classifies or predicts outcomes, generative models *create novel data* by learning the underlying patterns and structures of their training datasets.
 
@@ -25,7 +25,7 @@ Develop a comprehensive report for the following exercises:
 
 Popular generative AI models: Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Transformer-based models.
 
-    2. Generative AI Architectures (e.g., Transformers)
+ 2. Generative AI Architectures (e.g., Transformers)
 
   Generative AI has evolved through various model architectures:
 
@@ -38,7 +38,7 @@ Popular generative AI models: Generative Adversarial Networks (GANs), Variationa
   - Transformers are *foundation models* for many large-language and multimodal generation systems. Examples include GPT (text generation), DALL-E (image generation from text), and more.
   - Key features: scalability, parallelization, and context-awareness in generation.
 
-3.     Generative AI Applications
+3. Generative AI Applications
 
   Generative AI models are being applied across many sectors:
 
@@ -49,7 +49,7 @@ Popular generative AI models: Generative Adversarial Networks (GANs), Variationa
 - Drug Discovery: Molecular structure generation, protein folding.
 - Design and Engineering: Generative design for architecture and product design.
 
-4.     Impact of Scaling in LLMs (Large Language Models)
+4. Impact of Scaling in LLMs (Large Language Models)
 
   Scaling refers to increasing the size of AI models in terms of parameters, data, and compute resources. Major impacts of scaling LLMs include:
 
