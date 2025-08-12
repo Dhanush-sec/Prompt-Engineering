@@ -25,6 +25,23 @@ Common generative modeling techniques:
 - **Variational Autoencoders (VAEs):** Learn to encode data into a latent space, then decode it to generate new samples.
 - **Generative Adversarial Networks (GANs):** Use two neural networks—the generator and the discriminator—in a competitive setup to improve output quality.
 - **Diffusion Models:** Generate data by refining random noise, popular in image synthesis.
+- Key principles include:
+
+Latent Space Learning: Generative models often map complex data (e.g., sentences or images) into compact, abstract “latent” spaces, capturing semantics or structure. Manipulating points in this space results in meaningful new creations, such as morphing facial attributes or generating novel sentences.
+
+Density Estimation: Many generative models learn the probability density function of their training data, which enables them to sample new, plausible items.
+
+Conditional Generation: Models can be directed—given labels or prompts, they generate content matching those conditions (e.g., “draw a cat wearing sunglasses”).
+
+Types of Generative Models:
+
+VAEs (Variational Autoencoders): Combine autoencoding with probabilistic modeling, allowing for controllable generation.
+
+GANs (Generative Adversarial Networks): Pit a “generator” against a “discriminator;” widely used for realistic images.
+
+Autoregressive models: Generate content one step at a time, predicting the next word or pixel.
+
+Diffusion Models: Gradually denoise a random vector to form complex data (hugely influential in image generation).
 
 ***
 
@@ -46,6 +63,20 @@ Other related architectures:
 - **GANs and VAEs:** Used for images, video, and music generation.
 - **Diffusion Models:** State-of-the-art in photorealistic image synthesis.
 
+- Attention Mechanism:
+
+Buffers the model against sequence length, focusing on semantically relevant portions.
+
+Led to context windows expanding from hundreds to tens of thousands of tokens in modern LLMs.
+
+Emerging Architectures:
+
+Diffusion Models: Especially popular for image generation (e.g., Stable Diffusion, DALL-E 3).
+
+Hybrid Models: Combine transformers with convolutional or other modules for specialized tasks such as video understanding or generating 3D assets.
+
+Sparse Transformers: For handling even larger inputs efficiently.
+
 ***
 
 ## 3. Generative AI Applications
@@ -62,6 +93,8 @@ Generative AI finds applications across industries:
 
 The versatility comes from models’ ability to learn and imitate complex data distributions, enabling creativity, automation, and augmentation.
 
+
+
 ***
 
 ## 4. Generative AI Impact of Scaling in LLMs
@@ -76,6 +109,25 @@ Scaling refers to increasing model size (number of parameters), dataset size, an
 - **Challenges:** Requires significant resources (hardware, electricity, data). Raises concerns about bias, security, hallucination, and environmental impact.
 
 Recent advances—such as GPT-4 and its peers—demonstrate how scaling enables models to outperform previous generations on benchmarks and real-world tasks, fundamentally shifting what’s possible with AI.
+Scaling: Data, Model, and Compute
+
+Training on ever-larger datasets and bigger models leads to more general, robust, and knowledgeable AI.
+
+Few-shot and zero-shot learning—where a model can do a task from a description or a few examples—became feasible only with scale.
+
+Risks and Challenges:
+
+Bias & Hallucination: Larger models can propagate and even amplify biases present in training data.
+
+Resource Usage: Environmental impact (energy, carbon footprint) is a growing concern.
+
+Control & Alignment: Greater unpredictability as scale grows makes safety research paramount.
+
+Recent Trends in Scaling:
+
+Mixture-of-Experts (MoE) models like Google’s Switch Transformer can “route” computations for efficiency, allowing massive models without proportional increases in computation cost.
+
+Retrieval-augmented generation—supplements models with up-to-date information stores for accuracy.
 
 ***
 
