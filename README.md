@@ -14,6 +14,8 @@ Develop a comprehensive report for the following exercises:
 
 
 
+
+
 1. Foundational Concepts of Generative AI
 
   Generative AI refers to machine learning systems that are capable of producing new content, such as text, images, music, or code, that resembles data they were trained on. Unlike traditional AI that classifies or predicts outcomes, generative models *create novel data* by learning the underlying patterns and structures of their training datasets.
